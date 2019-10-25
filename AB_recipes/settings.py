@@ -88,3 +88,8 @@ ROBOTSTXT_OBEY = True
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# TODO: use args to give different names to tests?
+# TODO: use args to stop on errors?
+FEED_URI = "file:scraped_data/%(name)s-%(time)s.jl"
+LOG_LEVEL = "INFO"
