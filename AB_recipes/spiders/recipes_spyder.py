@@ -16,7 +16,7 @@ class RecipesSpider(scrapy.Spider):
     ]
 
     def parse(self, response: scrapy.http.TextResponse):
-        self.logger.info("Parse function called on %s", response.url)
+        self.logger.debug("Parse function called on %s", response.url)
 
         # set a list of seen URLs, to skip.
         seen_urls = set()

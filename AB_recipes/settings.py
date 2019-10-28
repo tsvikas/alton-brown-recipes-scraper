@@ -96,3 +96,5 @@ HTTPCACHE_POLICY = "scrapy.extensions.httpcache.RFC2616Policy"
 # TODO: use args to stop on errors?
 FEED_URI = "file:scraped_data/%(name)s-%(time)s.jl"
 LOG_LEVEL = "INFO"
+LOGSTATS_INTERVAL = 10.0
+STATS_DUMP = False
